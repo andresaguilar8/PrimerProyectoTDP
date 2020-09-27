@@ -19,11 +19,8 @@ public class Tester {
 		grafo.addNode(3);
 		grafo.addEdge(2,3);
 		grafo.removeNode(3);
-//		grafo.removeEdge(2,3);
-//		grafo.addNode(4);
+		grafo.removeEdge(2,3);
+		grafo.addNode(4);
 		grafo.addEdge(2,4);
-		System.out.println(grafo.getNodes().size());
-		
-		System.out.println(grafo.getEdges().size());
 	}
 }
